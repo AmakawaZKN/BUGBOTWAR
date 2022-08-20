@@ -1,0 +1,13 @@
+Cara Install Bot
+
+pkg update && pkg upgrade
+pkg install nodejs
+pkg install bash
+pkg install ffmpeg
+termux-setup-storage
+cd /sdcard
+cp -r Pak $HOME
+cd
+cd Pak
+bash install.sh
+node PakTzy〽️.js
